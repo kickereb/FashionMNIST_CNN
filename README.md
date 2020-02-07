@@ -8,4 +8,5 @@ Lateral Data augmentation was induced in the training batch.
 Adam optimizer used.
 
 Final Accuracy - 97.41%
+
 Validation - 89.60%

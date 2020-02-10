@@ -4,7 +4,7 @@ Model built
 - 2 Layered CNN (relu) with max pooling
 - 2 Fully Connected layeres
 
-Lateral Data augmentation was induced in the training batch.
+RANDOM Lateral Data augmentation was induced in the training batch.
 Adam optimizer used.
 
 Final Accuracy - 97.41%

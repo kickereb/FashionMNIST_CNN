@@ -9,4 +9,4 @@ Adam optimizer used.
 
 Final Accuracy - 97.11%
 
-Validation - 91.72%
+Validation - 91.19%

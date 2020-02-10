@@ -7,6 +7,6 @@ Model built
 RANDOM Lateral Data augmentation was induced in the training batch.
 Adam optimizer used.
 
-Final Accuracy - 97.41%
+Final Accuracy - 97.11%
 
-Validation - 89.60%
+Validation - 91.72%

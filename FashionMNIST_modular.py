@@ -27,15 +27,23 @@ print(tf.__version__)
 fashion_mnist = keras.datasets.fashion_mnist
 (trainX, trainY), (testX, testY) = fashion_mnist.load_data()
 
-
 # In[4]:
+
+for_hold = trainX.copy()
+for i in range(trainX.shape[0]):
+    for_hold[i] = cv2.flip(trainX[i], np.random.randint(-1,3))
+trainX = for_hold.copy()
+
+
+# In[5]:
 
 
 trainX = trainX.reshape((trainX.shape[0], 28, 28, 1))
 testX = testX.reshape((testX.shape[0], 28, 28, 1))
 
 
-# In[5]:
+
+# In[6]:
 
 
 trainX = trainX/255.0
